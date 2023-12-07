@@ -1,0 +1,33 @@
+section{
+    border:1px solid black;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: calibri, sans-serif;
+    background-color: rgb(190, 186, 243);
+}
+section h1{
+    text-align: center;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type=submit], input[type=reset]{
+    display:block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(190, 186, 243);
+}
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: rgb(98, 99, 206);
+}
+input[type=text]:focus, input[type=file]:focus{
+    border: 2px solid rgb(127, 37, 230);
+}
+*{
+    box-sizing: border-box;
+}
